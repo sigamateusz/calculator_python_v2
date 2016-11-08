@@ -19,7 +19,7 @@ def calculator(a , b , operation = '+', output_format = 'float'):
     if output_format == 'float':
         return result
     elif output_format == 'int':
-        return round(result) #
+        return round(result) # rounds the result to int
     else:
         return 'Wrong format of output'
 
